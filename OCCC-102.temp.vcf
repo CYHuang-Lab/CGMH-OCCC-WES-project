@@ -1,0 +1,193 @@
+##fileformat=VCFv4.1
+##source=VariantAnnotation 1.20.3
+##phasing=unphased
+##fileDate=20200210
+##FORMAT=<ID=AD,Number=2,Type=Integer,Description="Allelic depths (number of reads in each observed allele)">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Total read depth">
+##FORMAT=<ID=FT,Number=1,Type=String,Description="Variant filters">
+##INFO=<ID=t_ref_count,Number=1,Type=Integer,Description="Tumour ref count">
+##INFO=<ID=t_alt_count,Number=1,Type=Integer,Description="Tumour alt count">
+##contig=<ID=1>
+##contig=<ID=2>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+1	1487858	.	C	T	.	PASSED	t_alt_count=45;t_ref_count=117	AD:DP	.,45:162
+1	16619787	.	C	T	.	PASSED	t_alt_count=11;t_ref_count=39	AD:DP	.,11:50
+1	26023263	.	C	T	.	PASSED	t_alt_count=15;t_ref_count=96	AD:DP	.,15:111
+1	26697511	.	G	-	.	PASSED	t_alt_count=33;t_ref_count=93	AD:DP	.,33:126
+1	26731521	.	-	C	.	PASSED	t_alt_count=39;t_ref_count=133	AD:DP	.,39:172
+1	28453958	.	G	A	.	PASSED	t_alt_count=15;t_ref_count=36	AD:DP	.,15:51
+1	63623434	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=43	AD:DP	.,7:50
+1	86428576	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=111	AD:DP	.,7:118
+1	90716853	.	G	A	.	PASSED	t_alt_count=41;t_ref_count=116	AD:DP	.,41:157
+1	91351640	.	C	G	.	PASSED	t_alt_count=9;t_ref_count=50	AD:DP	.,9:59
+1	93997961	.	A	-	.	PASSED	t_alt_count=16;t_ref_count=70	AD:DP	.,16:86
+1	111323840	.	C	T	.	PASSED	t_alt_count=13;t_ref_count=36	AD:DP	.,13:49
+1	119948554	.	G	A	.	PASSED	t_alt_count=8;t_ref_count=91	AD:DP	.,8:99
+1	153933332	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=89	AD:DP	.,7:96
+1	154255596	.	C	T	.	PASSED	t_alt_count=12;t_ref_count=35	AD:DP	.,12:47
+1	168134837	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=65	AD:DP	.,7:72
+1	169821640	.	C	G	.	PASSED	t_alt_count=12;t_ref_count=25	AD:DP	.,12:37
+1	179593568	.	G	T	.	PASSED	t_alt_count=33;t_ref_count=91	AD:DP	.,33:124
+1	204214014	.	C	G	.	PASSED	t_alt_count=11;t_ref_count=39	AD:DP	.,11:50
+1	206612429	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=76	AD:DP	.,7:83
+1	230706133	.	C	T	.	PASSED	t_alt_count=38;t_ref_count=62	AD:DP	.,38:100
+1	239909066	.	G	A	.	PASSED	t_alt_count=44;t_ref_count=123	AD:DP	.,44:167
+1	240827025	.	G	T	.	PASSED	t_alt_count=8;t_ref_count=31	AD:DP	.,8:39
+10	26709557	.	G	A	.	PASSED	t_alt_count=8;t_ref_count=16	AD:DP	.,8:24
+10	69498143	.	G	T	.	PASSED	t_alt_count=12;t_ref_count=34	AD:DP	.,12:46
+10	93625653	.	C	T	.	PASSED	t_alt_count=17;t_ref_count=45	AD:DP	.,17:62
+10	101012088	.	C	T	.	PASSED	t_alt_count=19;t_ref_count=71	AD:DP	.,19:90
+11	6108717	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=86	AD:DP	.,7:93
+11	14988387	.	C	G	.	PASSED	t_alt_count=20;t_ref_count=43	AD:DP	.,20:63
+11	56093671	.	C	T	.	PASSED	t_alt_count=18;t_ref_count=77	AD:DP	.,18:95
+11	59422372	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=105	AD:DP	.,7:112
+11	72004064	.	G	C	.	PASSED	t_alt_count=21;t_ref_count=82	AD:DP	.,21:103
+11	72021324	.	G	C	.	PASSED	t_alt_count=27;t_ref_count=63	AD:DP	.,27:90
+11	72172593	.	C	A	.	PASSED	t_alt_count=36;t_ref_count=101	AD:DP	.,36:137
+11	96371032	.	C	T	.	PASSED	t_alt_count=17;t_ref_count=26	AD:DP	.,17:43
+11	130188192	.	C	T	.	PASSED	t_alt_count=66;t_ref_count=150	AD:DP	.,66:216
+12	38321053	.	C	G	.	PASSED	t_alt_count=39;t_ref_count=98	AD:DP	.,39:137
+12	51820983	.	G	A	.	PASSED	t_alt_count=8;t_ref_count=24	AD:DP	.,8:32
+12	54802978	.	G	A	.	PASSED	t_alt_count=11;t_ref_count=68	AD:DP	.,11:79
+12	64425383	.	T	C	.	PASSED	t_alt_count=24;t_ref_count=88	AD:DP	.,24:112
+12	108248005	.	G	A	.	PASSED	t_alt_count=31;t_ref_count=48	AD:DP	.,31:79
+12	117855535	.	A	G	.	PASSED	t_alt_count=56;t_ref_count=95	AD:DP	.,56:151
+12	119488939	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=110	AD:DP	.,7:117
+12	122855081	.	G	A	.	PASSED	t_alt_count=56;t_ref_count=104	AD:DP	.,56:160
+12	124486415	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=91	AD:DP	.,7:98
+13	29480229	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=98	AD:DP	.,7:105
+13	105467129	.	C	T	.	PASSED	t_alt_count=15;t_ref_count=34	AD:DP	.,15:49
+13	113149383	.	C	T	.	PASSED	t_alt_count=24;t_ref_count=93	AD:DP	.,24:117
+14	39158306	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=75	AD:DP	.,7:82
+14	65280603	.	C	T	.	PASSED	t_alt_count=23;t_ref_count=56	AD:DP	.,23:79
+14	67585948	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=102	AD:DP	.,7:109
+15	22764227	.	A	G	.	PASSED	t_alt_count=11;t_ref_count=70	AD:DP	.,11:81
+15	43189351	.	T	G	.	PASSED	t_alt_count=18;t_ref_count=26	AD:DP	.,18:44
+15	45503031	.	T	C	.	PASSED	t_alt_count=19;t_ref_count=79	AD:DP	.,19:98
+15	45610664	.	A	T	.	PASSED	t_alt_count=5;t_ref_count=18	AD:DP	.,5:23
+15	70095601	.	C	T	.	PASSED	t_alt_count=37;t_ref_count=75	AD:DP	.,37:112
+15	75675809	.	G	A	.	PASSED	t_alt_count=36;t_ref_count=89	AD:DP	.,36:125
+16	1216981	.	C	T	.	PASSED	t_alt_count=27;t_ref_count=67	AD:DP	.,27:94
+16	3482524	.	A	G	.	PASSED	t_alt_count=22;t_ref_count=35	AD:DP	.,22:57
+16	3739595	.	GC	AA	.	PASSED	t_alt_count=24;t_ref_count=59	AD:DP	.,24:83
+16	20431274	.	G	A	.	PASSED	t_alt_count=29;t_ref_count=78	AD:DP	.,29:107
+16	20780801	.	G	A	.	PASSED	t_alt_count=40;t_ref_count=78	AD:DP	.,40:118
+16	31975951	.	G	A	.	PASSED	t_alt_count=18;t_ref_count=44	AD:DP	.,18:62
+16	68823537	.	-	CA	.	PASSED	t_alt_count=29;t_ref_count=82	AD:DP	.,29:111
+16	74491232	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=36	AD:DP	.,7:43
+16	89285481	.	-	CGTCG	.	PASSED	t_alt_count=34;t_ref_count=68	AD:DP	.,34:102
+17	20513582	.	A	C	.	PASSED	t_alt_count=5;t_ref_count=44	AD:DP	.,5:49
+17	35133491	.	C	T	.	PASSED	t_alt_count=19;t_ref_count=55	AD:DP	.,19:74
+17	41167781	.	C	T	.	PASSED	t_alt_count=57;t_ref_count=171	AD:DP	.,57:228
+17	48862355	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=80	AD:DP	.,7:87
+17	49148732	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=126	AD:DP	.,7:133
+17	70175985	.	C	G	.	PASSED	t_alt_count=25;t_ref_count=82	AD:DP	.,25:107
+17	75491059	.	G	A	.	PASSED	t_alt_count=17;t_ref_count=52	AD:DP	.,17:69
+18	15316704	.	C	T	.	PASSED	t_alt_count=20;t_ref_count=60	AD:DP	.,20:80
+18	72750210	.	G	T	.	PASSED	t_alt_count=26;t_ref_count=83	AD:DP	.,26:109
+18	79378078	.	C	A	.	PASSED	t_alt_count=8;t_ref_count=37	AD:DP	.,8:45
+19	9790426	.	T	G	.	PASSED	t_alt_count=8;t_ref_count=17	AD:DP	.,8:25
+19	14406958	.	G	A	.	PASSED	t_alt_count=26;t_ref_count=71	AD:DP	.,26:97
+19	14563217	.	C	T	.	PASSED	t_alt_count=41;t_ref_count=75	AD:DP	.,41:116
+19	33114231	.	A	T	.	PASSED	t_alt_count=5;t_ref_count=52	AD:DP	.,5:57
+19	53798233	.	C	T	.	PASSED	t_alt_count=30;t_ref_count=86	AD:DP	.,30:116
+19	55145648	.	C	-	.	PASSED	t_alt_count=12;t_ref_count=32	AD:DP	.,12:44
+19	55500285	.	CT	-	.	PASSED	t_alt_count=44;t_ref_count=116	AD:DP	.,44:160
+2	23754203	.	A	G	.	PASSED	t_alt_count=17;t_ref_count=46	AD:DP	.,17:63
+2	27576291	.	C	A	.	PASSED	t_alt_count=16;t_ref_count=80	AD:DP	.,16:96
+2	28620281	.	G	A	.	PASSED	t_alt_count=80;t_ref_count=211	AD:DP	.,80:291
+2	39023106	.	C	T	.	PASSED	t_alt_count=36;t_ref_count=116	AD:DP	.,36:152
+2	102532537	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=88	AD:DP	.,7:95
+2	166427783	.	C	T	.	PASSED	t_alt_count=22;t_ref_count=62	AD:DP	.,22:84
+2	178608002	.	G	T	.	PASSED	t_alt_count=37;t_ref_count=86	AD:DP	.,37:123
+2	186762618	.	C	A	.	PASSED	t_alt_count=13;t_ref_count=90	AD:DP	.,13:103
+2	197777145	.	T	G	.	PASSED	t_alt_count=12;t_ref_count=26	AD:DP	.,12:38
+2	219206897	.	G	C	.	PASSED	t_alt_count=15;t_ref_count=49	AD:DP	.,15:64
+2	232481085	.	G	A	.	PASSED	t_alt_count=25;t_ref_count=87	AD:DP	.,25:112
+2	241498960	.	G	C	.	PASSED	t_alt_count=32;t_ref_count=53	AD:DP	.,32:85
+20	3121698	.	G	C	.	PASSED	t_alt_count=22;t_ref_count=141	AD:DP	.,22:163
+20	41413509	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=83	AD:DP	.,7:90
+20	49886803	.	G	A	.	PASSED	t_alt_count=15;t_ref_count=221	AD:DP	.,15:236
+20	62861265	.	C	G	.	PASSED	t_alt_count=34;t_ref_count=56	AD:DP	.,34:90
+22	23096350	.	G	A	.	PASSED	t_alt_count=15;t_ref_count=86	AD:DP	.,15:101
+22	24847767	.	G	A	.	PASSED	t_alt_count=17;t_ref_count=90	AD:DP	.,17:107
+22	35288284	.	C	T	.	PASSED	t_alt_count=27;t_ref_count=101	AD:DP	.,27:128
+3	8627654	.	G	A	.	PASSED	t_alt_count=54;t_ref_count=82	AD:DP	.,54:136
+3	33400247	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=111	AD:DP	.,7:118
+3	48581575	.	G	A	.	PASSED	t_alt_count=34;t_ref_count=95	AD:DP	.,34:129
+3	49429041	.	G	A	.	PASSED	t_alt_count=39;t_ref_count=41	AD:DP	.,39:80
+3	55489021	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=74	AD:DP	.,7:81
+3	107755702	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=84	AD:DP	.,7:91
+3	137881203	.	G	A	.	PASSED	t_alt_count=10;t_ref_count=18	AD:DP	.,10:28
+3	141959785	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=74	AD:DP	.,7:81
+3	179218303	.	G	A	.	PASSED	t_alt_count=39;t_ref_count=74	AD:DP	.,39:113
+3	182965508	.	T	G	.	PASSED	t_alt_count=10;t_ref_count=20	AD:DP	.,10:30
+4	17515500	.	C	A	.	PASSED	t_alt_count=29;t_ref_count=76	AD:DP	.,29:105
+4	26999367	.	C	G	.	PASSED	t_alt_count=9;t_ref_count=41	AD:DP	.,9:50
+4	65217286	.	G	T	.	PASSED	t_alt_count=11;t_ref_count=47	AD:DP	.,11:58
+4	67588356	.	T	C	.	PASSED	t_alt_count=60;t_ref_count=206	AD:DP	.,60:266
+4	143214393	.	G	A	.	PASSED	t_alt_count=7;t_ref_count=106	AD:DP	.,7:113
+4	183961402	.	C	G	.	PASSED	t_alt_count=15;t_ref_count=63	AD:DP	.,15:78
+5	1295018	.	CACGTGCGCAGCAGGAC	T	.	PASSED	t_alt_count=12;t_ref_count=20	AD:DP	.,12:32
+5	7873337	.	G	A	.	PASSED	t_alt_count=18;t_ref_count=50	AD:DP	.,18:68
+5	35654575	.	C	T	.	PASSED	t_alt_count=34;t_ref_count=81	AD:DP	.,34:115
+5	65822910	.	C	-	.	PASSED	t_alt_count=31;t_ref_count=61	AD:DP	.,31:92
+5	75596232	.	A	G	.	PASSED	t_alt_count=21;t_ref_count=50	AD:DP	.,21:71
+5	96762353	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=119	AD:DP	.,7:126
+5	115993849	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=112	AD:DP	.,7:119
+5	127171290	.	G	A	.	PASSED	t_alt_count=8;t_ref_count=33	AD:DP	.,8:41
+5	129566536	.	G	A	.	PASSED	t_alt_count=20;t_ref_count=103	AD:DP	.,20:123
+5	139393574	.	G	A	.	PASSED	t_alt_count=34;t_ref_count=134	AD:DP	.,34:168
+5	140884151	.	C	G	.	PASSED	t_alt_count=46;t_ref_count=99	AD:DP	.,46:145
+5	141137020	.	G	A	.	PASSED	t_alt_count=82;t_ref_count=236	AD:DP	.,82:318
+5	141194401	.	G	A	.	PASSED	t_alt_count=44;t_ref_count=59	AD:DP	.,44:103
+5	170034509	.	C	G	.	PASSED	t_alt_count=24;t_ref_count=98	AD:DP	.,24:122
+5	173225941	.	C	T	.	PASSED	t_alt_count=13;t_ref_count=32	AD:DP	.,13:45
+5	173318094	.	G	A	.	PASSED	t_alt_count=45;t_ref_count=157	AD:DP	.,45:202
+5	179181135	.	G	A	.	PASSED	t_alt_count=22;t_ref_count=63	AD:DP	.,22:85
+6	18139742	.	AT	-	.	PASSED	t_alt_count=7;t_ref_count=24	AD:DP	.,7:31
+6	21594815	.	G	A	.	PASSED	t_alt_count=69;t_ref_count=191	AD:DP	.,69:260
+6	37009061	.	C	T	.	PASSED	t_alt_count=17;t_ref_count=42	AD:DP	.,17:59
+6	83178799	.	G	T	.	PASSED	t_alt_count=8;t_ref_count=32	AD:DP	.,8:40
+6	104019231	.	G	C	.	PASSED	t_alt_count=19;t_ref_count=62	AD:DP	.,19:81
+6	136720456	.	T	C	.	PASSED	t_alt_count=24;t_ref_count=83	AD:DP	.,24:107
+6	138405081	.	A	G	.	PASSED	t_alt_count=15;t_ref_count=48	AD:DP	.,15:63
+6	157981965	.	G	A	.	PASSED	t_alt_count=16;t_ref_count=60	AD:DP	.,16:76
+7	2571611	.	G	A	.	PASSED	t_alt_count=38;t_ref_count=141	AD:DP	.,38:179
+7	30753881	.	C	T	.	PASSED	t_alt_count=8;t_ref_count=90	AD:DP	.,8:98
+7	44080741	.	G	A	.	PASSED	t_alt_count=33;t_ref_count=91	AD:DP	.,33:124
+7	44541201	.	C	T	.	PASSED	t_alt_count=8;t_ref_count=89	AD:DP	.,8:97
+7	44573757	.	G	A	.	PASSED	t_alt_count=28;t_ref_count=103	AD:DP	.,28:131
+7	45818764	.	G	C	.	PASSED	t_alt_count=7;t_ref_count=25	AD:DP	.,7:32
+7	56598082	.	C	A	.	PASSED	t_alt_count=14;t_ref_count=42	AD:DP	.,14:56
+7	73308455	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=114	AD:DP	.,7:121
+7	107642990	.	G	A	.	PASSED	t_alt_count=8;t_ref_count=50	AD:DP	.,8:58
+7	135625189	.	G	C	.	PASSED	t_alt_count=28;t_ref_count=64	AD:DP	.,28:92
+7	141593405	.	T	C	.	PASSED	t_alt_count=22;t_ref_count=47	AD:DP	.,22:69
+8	28045539	.	C	T	.	PASSED	t_alt_count=7;t_ref_count=111	AD:DP	.,7:118
+8	38030774	.	G	A	.	PASSED	t_alt_count=12;t_ref_count=25	AD:DP	.,12:37
+8	132868122	.	G	A	.	PASSED	t_alt_count=28;t_ref_count=84	AD:DP	.,28:112
+8	143916744	.	G	A	.	PASSED	t_alt_count=38;t_ref_count=112	AD:DP	.,38:150
+9	82058152	.	-	T	.	PASSED	t_alt_count=40;t_ref_count=131	AD:DP	.,40:171
+9	129777324	.	T	A	.	PASSED	t_alt_count=9;t_ref_count=42	AD:DP	.,9:51
+9	137520085	.	C	A	.	PASSED	t_alt_count=17;t_ref_count=59	AD:DP	.,17:76
