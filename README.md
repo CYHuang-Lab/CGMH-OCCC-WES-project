@@ -6,12 +6,12 @@ This repository provides R codes and data used for the publication:
 > DOI: (will be provided soon)
 
 The scripts are written in R (version 4.1.0). The data needed for the codes
-are in the file "ITH2_data.RData". 
+are in the same repository. 
 
 All tumor and normal exome sequencing data are available from the corresponding authors upon reasonable request. 
 Please contact the corresponding author if necessary:
-R.-C. Wu: renchin.wu@gmail.com
-C.-H. Lai: sh46erry@hinet.net
+Dr. R.-C. Wu: renchin.wu@gmail.com
+Dr. C.-H. Lai: sh46erry@hinet.net
 
 # Links to external resources used in this study
 * TCGA cBioPortal: http://www.cbioportal.org/

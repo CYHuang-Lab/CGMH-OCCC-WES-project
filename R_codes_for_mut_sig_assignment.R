@@ -60,7 +60,7 @@ retval <- lapply(1:nrow(sig.table), function(x){
   mSigAct::SparseAssignActivity(
     spectra = catSBS96[,x,drop=FALSE],
     sigs = sigs_sbs96_exome[,sigs_to_use[[x]]],
-    output.dir = "./mutsig_new/SBS_sparse/",
+    output.dir = "./mutsig/SBS_sparse/",
     max.level = length(sigs_to_use[[x]]) - 1,
     p.thresh = 0.05 / length(sigs_to_use[[x]]),
     m.opts = my_opts,
@@ -71,8 +71,6 @@ retval <- lapply(1:nrow(sig.table), function(x){
     drop.low.mut.samples = FALSE
   )
 })
-
-saveRDS(retval, "./mutsig_new/SBS_sparse/sparse.out.SBS96.rds")
 
 
 ## mutational signature assignment for indels

@@ -1,7 +1,7 @@
 ### R codes for SCNA analysis and consensus clustering
 rm(list = ls())
 
-# Install dependency packages and load in data
+# library dependency packages and load in data
 library(tidyverse)
 library(ggpubr)
 library(ConsensusClusterPlus)
